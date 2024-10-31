@@ -1,0 +1,18 @@
+.works {
+    padding: 80px;
+    background: var(--light-color, #f5f5f7);
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr) 1.5fr;
+        column-gap: 30px;
+        row-gap: 50px;
+        margin-top: 50px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+        }
+    }
+}
