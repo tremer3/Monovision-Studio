@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-ThinBETA.eot');
+    src: local('Inter Thin BETA'), local('Inter-ThinBETA'),
+        url('Inter-ThinBETA.woff2') format('woff2'),
+        url('Inter-ThinBETA.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.eot');
+    src: local('Inter Regular'), local('Inter-Regular'),
+        url('Inter-Regular.woff2') format('woff2'),
+        url('Inter-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
