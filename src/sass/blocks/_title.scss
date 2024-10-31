@@ -4,4 +4,17 @@
     color: var(--dark-color #221f20);
     line-height: normal;
     text-align: center;
+    span {
+		position: relative;
+	}
+	span::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: -1px;
+		right: 0;
+		width: 75px;
+		height: 2px;
+		background-color: #000;
+	}
 }

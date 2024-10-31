@@ -17,3 +17,33 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Medium'), local('Inter-Medium'),
+        url('../../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../../fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Extra Light BETA'), local('Inter-ExtraLightBETA'),
+        url('../../fonts/Inter-ExtraLightBETA.woff2') format('woff2'),
+        url('../../fonts/Inter-ExtraLightBETA.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Light BETA'), local('Inter-LightBETA'),
+        url('../../fonts/Inter-LightBETA.woff2') format('woff2'),
+        url('../../fonts/Inter-LightBETA.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
