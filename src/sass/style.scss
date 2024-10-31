@@ -1,3 +1,6 @@
+@import 'libs/modern-normalize.min';
+@import 'libs/fonts';
+
 h1,
 h2,
 h3,
@@ -40,3 +43,9 @@ img {
 html {
 	font-family: "Inter", sans-serif;
 }
+
+.container {
+    padding: 0 var(--container-padding-inline);
+}
+
+@import 'blocks/promo';
